@@ -1,0 +1,67 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1366px 665px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 7rem 0;
+}
+.content h2 {
+  font-family: fantasy;
+  text-align: center;
+  text-justify: center;
+  padding-bottom: 20px;
+  letter-spacing: 0.1rem;
+}
+
+.custom-table {
+  min-width: 800px;
+  min-height: 200px;
+  background-color: #cccbcb;
+  border-radius: 15px;
+}
+.custom-table thead tr,
+.custom-table thead th {
+  padding: 20px 20px;
+  color: #363638;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+}
+.custom-table thead tr {
+  border-radius: 15px;
+}
+.custom-table tbody th {
+  color: #363638;
+  border: none;
+  transition: 0.3s all ease;
+  width: 15%;
+  padding: 20px 20px;
+}
+.custom-table tbody td {
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+  border: none;
+  transition: 0.3s all ease;
+}
+.custom-table tbody tr {
+  font-size: 15px;
+  transition: 0.3s all ease;
+  border-top: 3px solid rgba(141, 141, 141, 0.07);
+}
+.custom-table tbody tr:hover td, .custom-table tbody tr:focus td {
+  color: #b27300;
+  font-weight: 700;
+}
+.custom-table tbody tr:nth-child(odd) {
+  background: rgba(94, 94, 94, 0.5);
+}/*# sourceMappingURL=style.css.map */
